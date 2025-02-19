@@ -91,3 +91,40 @@ button {
     font-weight: 400;
     outline: none;
 }
+
+#task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.taskItem {
+    display: flex;
+    background-color: lightslategrey;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task input{
+    width: 20px;
+    height: 20px;
+}
+
+.taskItem img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
